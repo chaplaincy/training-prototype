@@ -1,0 +1,57 @@
+{
+  "id": "welcome",
+  "summary": "Understand where this preparation fits and what support is available to you as a chaplaincy volunteer.",
+  "objectives": [
+    "Know what this course does and does not replace.",
+    "Understand that local procedures will be covered with your mentor.",
+    "Know that volunteers are supported and are not expected to manage difficult situations alone."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "lead": true,
+      "eyebrow": "A shared foundation",
+      "title": "Welcome to the team",
+      "body": [
+        "Chaplaincy volunteers offer time, attention and a compassionate human presence to patients and, where appropriate, to their families. You will meet people from many religious, spiritual and non-religious backgrounds.",
+        "This course gives all UHL and LPT chaplaincy volunteers the same foundation. It introduces the role, the skills you will use and the boundaries that keep patients and volunteers safe."
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Three parts of your preparation",
+      "items": [
+        {
+          "title": "This course",
+          "body": "Chaplaincy-specific preparation: presence, listening, consent, boundaries, appropriate referral and responding to concerns."
+        },
+        {
+          "title": "Trust training",
+          "body": "The mandatory learning required by your Trust, including subjects such as information governance, safeguarding and infection prevention."
+        },
+        {
+          "title": "Local induction",
+          "body": "Your mentor will show you where to sign in, who to contact, how local systems work and what is expected in your particular placement."
+        },
+        {
+          "title": "Ongoing support",
+          "body": "Questions, uncertainty and emotional reactions are normal. Bring them to your mentor or another chaplain rather than carrying them alone."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warm",
+      "label": "Remember",
+      "title": "You do not need to have all the answers",
+      "body": [
+        "Good volunteering is not about solving every problem. It is about being attentive, knowing the limits of your role and involving the right person when more support is needed."
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The patient sets the agenda. Our task is to make room for what matters to them.",
+      "caption": "A guiding principle for the whole course"
+    }
+  ]
+}

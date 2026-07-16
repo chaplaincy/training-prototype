@@ -1,0 +1,78 @@
+{
+  "id": "boundaries",
+  "summary": "Understand the professional limits that protect patients, volunteers and the integrity of chaplaincy.",
+  "objectives": [
+    "Recognise how vulnerability and unequal power affect the relationship.",
+    "Maintain appropriate contact and personal boundaries.",
+    "Understand that confidentiality has important limits."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "lead": true,
+      "eyebrow": "Kindness with a framework",
+      "title": "A professional relationship",
+      "body": [
+        "Chaplaincy can involve warm and meaningful encounters, but it is not an ordinary friendship. The patient may be unwell, dependent or emotionally vulnerable, and may see you as having more authority than you feel you possess.",
+        "Clear boundaries do not make care cold. They make it dependable and safe."
+      ]
+    },
+    {
+      "type": "doDont",
+      "title": "Keeping the relationship safe",
+      "do": {
+        "title": "Do",
+        "items": [
+          "Wear your volunteer identification and be clear about your role.",
+          "Use approved chaplaincy routes for referrals and follow-up.",
+          "Ask your mentor when a gift, request or situation feels uncertain.",
+          "Keep any necessary records factual, appropriate and secure."
+        ]
+      },
+      "dont": {
+        "title": "Do not",
+        "items": [
+          "Exchange personal telephone numbers or social-media details.",
+          "Arrange private contact or meetings after discharge.",
+          "Lend or accept money, become involved in financial matters or agree to keep valuables.",
+          "Photograph patients or discuss them on personal devices or social media."
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "tone": "safety",
+      "label": "Confidentiality",
+      "title": "Private does not always mean secret",
+      "body": [
+        "Treat what patients tell you with care and do not discuss it casually. However, never promise absolute secrecy. If information suggests that a patient or another person may be at risk, or raises a safeguarding concern, pass it promptly to an appropriate chaplain or member of clinical staff in line with Trust policy.",
+        "When a routine referral would help, explain what you propose to share and seek the patient’s consent."
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "boundaries-contact",
+      "label": "Patient story",
+      "title": "“Can we keep in touch?”",
+      "prompt": "A patient says your visits have meant a great deal and asks for your mobile number so that you can meet for coffee after discharge. What should you say?",
+      "options": [
+        {
+          "text": "Give the number, but ask the patient not to tell anybody.",
+          "preferred": false,
+          "feedback": "Secrecy is a warning sign, not a solution. Private contact changes the relationship and removes the safeguards of the volunteer role."
+        },
+        {
+          "text": "Decline warmly, explain that volunteers cannot form private relationships with patients, and discuss any ongoing support with the chaplaincy team.",
+          "preferred": true,
+          "feedback": "This values what the contact has meant while preserving the professional boundary and considering appropriate support."
+        },
+        {
+          "text": "End the visit immediately without explanation.",
+          "preferred": false,
+          "feedback": "The boundary must be clear, but it can usually be communicated with warmth rather than making the patient feel punished for asking."
+        }
+      ],
+      "debrief": "A patient’s gratitude can be genuine and moving. The safest response acknowledges it without turning the volunteer relationship into a private one."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "assessment",
+  "summary": "Apply the course principles to eight realistic situations and unlock your completion certificate.",
+  "objectives": [],
+  "sections": [
+    {
+      "type": "assessmentIntro",
+      "title": "A final check of your understanding",
+      "body": [
+        "Choose the most helpful response in each situation. This is designed to reinforce the course rather than catch you out. You will receive an explanation for every answer and can try again if needed."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-consent",
+      "question": "A patient says, “No thanks, I don’t feel like talking today.” What is the best response?",
+      "options": [
+        {
+          "text": "Ask what is wrong and explain that talking will probably help.",
+          "correct": false,
+          "feedback": "The patient has declined. Pressing for a reason turns an offer into pressure."
+        },
+        {
+          "text": "Accept the refusal warmly and leave the possibility of another visit open.",
+          "correct": true,
+          "feedback": "Consent is voluntary and ongoing. A respectful refusal preserves dignity and future choice."
+        },
+        {
+          "text": "Say nothing and avoid visiting that patient again.",
+          "correct": false,
+          "feedback": "A refusal today does not necessarily mean the patient never wants chaplaincy contact."
+        }
+      ]
+    },
+    {
+      "id": "q-medical",
+      "question": "A patient asks whether you think the doctor has chosen the right treatment. What should you do?",
+      "options": [
+        {
+          "text": "Give your honest opinion based on what the patient has told you.",
+          "correct": false,
+          "feedback": "Medical advice and interpretation are outside the volunteer role. You do not have the complete clinical picture."
+        },
+        {
+          "text": "Listen to the concern and help the patient raise the question with appropriate clinical staff.",
+          "correct": true,
+          "feedback": "You can support the patient’s voice without giving clinical advice or taking sides."
+        },
+        {
+          "text": "Reassure them that NHS doctors always make the correct decision.",
+          "correct": false,
+          "feedback": "This dismisses the patient’s concern and makes a promise you cannot justify."
+        }
+      ]
+    },
+    {
+      "id": "q-risk",
+      "question": "A patient says they cannot carry on and would be better off dead. What is your responsibility?",
+      "options": [
+        {
+          "text": "Listen calmly and promptly involve an appropriate nurse or chaplain; do not hold the concern alone.",
+          "correct": true,
+          "feedback": "Take the words seriously, remain within your role and ensure that people able to assess and respond know promptly."
+        },
+        {
+          "text": "Change the subject to something cheerful so that the patient does not dwell on it.",
+          "correct": false,
+          "feedback": "Changing the subject can close down an important disclosure and leave a serious concern unaddressed."
+        },
+        {
+          "text": "Promise secrecy so the patient continues talking.",
+          "correct": false,
+          "feedback": "Never promise secrecy when somebody may be at risk. Explain honestly that appropriate support must be involved."
+        }
+      ]
+    },
+    {
+      "id": "q-contact",
+      "question": "A patient asks to add you on social media after discharge. What is the appropriate response?",
+      "options": [
+        {
+          "text": "Accept, but do not mention that you met in hospital.",
+          "correct": false,
+          "feedback": "Concealing the connection does not make it safe and is itself a warning that the boundary is being crossed."
+        },
+        {
+          "text": "Decline kindly, explain the volunteer boundary and discuss any appropriate ongoing support with chaplaincy.",
+          "correct": true,
+          "feedback": "This acknowledges the relationship while keeping contact within approved chaplaincy arrangements."
+        },
+        {
+          "text": "Accept if the patient sends the request first.",
+          "correct": false,
+          "feedback": "The boundary applies regardless of who initiates the request."
+        }
+      ]
+    },
+    {
+      "id": "q-prayer",
+      "question": "A patient asks you to pray for their recovery. Which response best reflects patient-led chaplaincy?",
+      "options": [
+        {
+          "text": "Promise that sincere prayer will improve the medical outcome.",
+          "correct": false,
+          "feedback": "Do not promise healing or claim certainty about an outcome."
+        },
+        {
+          "text": "Explore what the request means, respond within your competence and integrity, or offer an appropriate chaplaincy referral.",
+          "correct": true,
+          "feedback": "This takes the request seriously while avoiding assumptions, false promises or acting beyond your role."
+        },
+        {
+          "text": "Explain your own beliefs before deciding whether the request is acceptable.",
+          "correct": false,
+          "feedback": "The focus should remain on the patient’s need rather than turning the request into a discussion of your beliefs."
+        }
+      ]
+    },
+    {
+      "id": "q-family",
+      "question": "A relative repeatedly answers questions directed to an awake patient. What is a helpful first step?",
+      "options": [
+        {
+          "text": "Acknowledge the relative and gently give the patient time and opportunity to respond directly.",
+          "correct": true,
+          "feedback": "This keeps the patient central without treating the relative as an obstacle."
+        },
+        {
+          "text": "Speak only to the relative because they probably understand the situation better.",
+          "correct": false,
+          "feedback": "The relative may know a great deal, but the patient should not be excluded from their own encounter."
+        },
+        {
+          "text": "Immediately tell the relative to leave the ward.",
+          "correct": false,
+          "feedback": "Private conversation can be offered where appropriate, but imposing it may be unnecessary and insensitive."
+        }
+      ]
+    },
+    {
+      "id": "q-confidentiality",
+      "question": "Which statement about confidentiality is most accurate for a chaplaincy volunteer?",
+      "options": [
+        {
+          "text": "Everything a patient says must remain between the patient and volunteer in all circumstances.",
+          "correct": false,
+          "feedback": "Absolute secrecy must not be promised, particularly where risk or safeguarding concerns arise."
+        },
+        {
+          "text": "Information may be discussed with friends as long as the patient’s name is omitted.",
+          "correct": false,
+          "feedback": "Removing a name does not make casual discussion appropriate or necessarily prevent identification."
+        },
+        {
+          "text": "Information is treated carefully, but relevant concerns are shared appropriately in line with Trust policy.",
+          "correct": true,
+          "feedback": "This balances privacy with safe, lawful and appropriate information-sharing."
+        }
+      ]
+    },
+    {
+      "id": "q-isolation",
+      "question": "A familiar patient beckons you into a room displaying an infection-control warning. What should you do?",
+      "options": [
+        {
+          "text": "Enter because the patient has given permission.",
+          "correct": false,
+          "feedback": "Patient permission does not override infection-control precautions."
+        },
+        {
+          "text": "Do not enter; ask an appropriate member of staff and follow current instructions.",
+          "correct": true,
+          "feedback": "Staff can explain whether contact is possible and which precautions apply."
+        },
+        {
+          "text": "Enter only if you promise not to touch anything.",
+          "correct": false,
+          "feedback": "Avoiding touch does not make entry safe or compliant with the required precautions."
+        }
+      ]
+    }
+  ]
+}

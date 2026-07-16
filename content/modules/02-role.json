@@ -1,0 +1,90 @@
+{
+  "id": "role",
+  "summary": "Explore patient-led spiritual care for people of every faith, worldview and none.",
+  "objectives": [
+    "Describe chaplaincy as support for religious, spiritual and existential needs.",
+    "Keep the patient’s beliefs and values at the centre of the encounter.",
+    "Know when to offer a referral to a chaplain or faith representative."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "lead": true,
+      "eyebrow": "More than religion",
+      "title": "What might matter today?",
+      "body": [
+        "Illness can disturb a person’s sense of meaning, identity, hope, belonging or connection. Some people draw on a religious faith. Others draw on relationships, nature, culture, memories, values or the life they have lived.",
+        "Chaplaincy begins by discovering what matters to this person, at this moment. It does not begin by assuming what they believe."
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Chaplaincy can help people to…",
+      "items": [
+        {
+          "title": "Feel less alone",
+          "body": "Hospital can be isolating. An unhurried conversation can restore a sense of human connection."
+        },
+        {
+          "title": "Express difficult feelings",
+          "body": "Fear, anger, grief, uncertainty and questions such as “why me?” may need somewhere safe to be spoken."
+        },
+        {
+          "title": "Draw on what sustains them",
+          "body": "This might involve relationships, beliefs, memories, prayer, ritual, meaning, identity or hope."
+        },
+        {
+          "title": "Reach appropriate support",
+          "body": "A volunteer can refer requests for prayer, sacrament, rites or specialist support to the chaplaincy team."
+        }
+      ]
+    },
+    {
+      "type": "doDont",
+      "title": "Patient-led care",
+      "do": {
+        "title": "Do",
+        "items": [
+          "Ask open and respectful questions.",
+          "Use the words the patient uses for their beliefs and experience.",
+          "Be curious without interrogating.",
+          "Offer an appropriate referral when requested."
+        ]
+      },
+      "dont": {
+        "title": "Avoid",
+        "items": [
+          "Assuming that a person is religious or non-religious.",
+          "Trying to persuade, convert or correct someone.",
+          "Giving confident answers to profound questions.",
+          "Promising an outcome from prayer or belief."
+        ]
+      }
+    },
+    {
+      "type": "scenario",
+      "id": "role-not-religious",
+      "label": "Try this",
+      "title": "“I’m not religious”",
+      "prompt": "You introduce yourself as a chaplaincy volunteer. The patient replies, “Oh, I’m not religious.” What is the most helpful response?",
+      "options": [
+        {
+          "text": "“That’s absolutely fine. We visit people of all beliefs and none. Would you still like a chat?”",
+          "preferred": true,
+          "feedback": "This corrects the misunderstanding without pressure and gives the patient a genuine choice."
+        },
+        {
+          "text": "“You might feel differently when you have thought about what is happening to you.”",
+          "preferred": false,
+          "feedback": "This dismisses the patient’s stated position and risks making chaplaincy feel coercive."
+        },
+        {
+          "text": "“No problem,” and leave immediately.",
+          "preferred": false,
+          "feedback": "Leaving may be appropriate if that is what the patient wants, but first clarify that chaplaincy is available to people who are not religious."
+        }
+      ],
+      "debrief": "The aim is neither to sell chaplaincy nor to withdraw it automatically. Explain briefly, offer choice and respect the answer."
+    }
+  ]
+}

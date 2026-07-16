@@ -1,0 +1,72 @@
+{
+  "id": "visiting",
+  "summary": "Learn how to approach, begin and end a bedside conversation respectfully.",
+  "objectives": [
+    "Introduce yourself and obtain consent for a visit.",
+    "Notice whether the timing and environment are appropriate.",
+    "Respect a refusal without taking it personally."
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "title": "A simple shape for a visit",
+      "body": "Local signing-in and ward arrangements will be explained during your induction. The human part of the visit is consistent across placements.",
+      "items": [
+        {
+          "title": "Check in",
+          "body": "Introduce yourself to ward staff, follow local instructions and ask whether anyone may particularly appreciate chaplaincy support."
+        },
+        {
+          "title": "Notice first",
+          "body": "Is the patient asleep, receiving care, eating, on the telephone or talking privately? Do not interrupt clinical care or go behind closed curtains."
+        },
+        {
+          "title": "Introduce yourself",
+          "body": "For example: “Hello, my name is Sam. I’m a volunteer with the chaplaincy team. Would you like a chat?”"
+        },
+        {
+          "title": "Make the encounter comfortable",
+          "body": "If invited to stay, use an appropriate chair. Do not sit on beds or clinical equipment. Consider privacy without isolating yourself unsafely."
+        },
+        {
+          "title": "End clearly",
+          "body": "Summarise any agreed referral, check whether the patient needs anything passed on, say goodbye and complete the local sign-out process."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warm",
+      "label": "Consent",
+      "title": "A welcome yesterday is not consent today",
+      "body": [
+        "Consent is ongoing. A patient may be tired, in pain or simply not want company. A warm “Of course—take care” preserves dignity and leaves chaplaincy available for another time."
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "visiting-family-present",
+      "label": "At the bedside",
+      "title": "The relative answers for the patient",
+      "prompt": "Mark is unwell and his wife, Sue, answers every question for him. Mark is awake and appears to be listening. What could you do?",
+      "options": [
+        {
+          "text": "Continue speaking only to Sue because she clearly knows him best.",
+          "preferred": false,
+          "feedback": "Sue’s perspective matters, but speaking only to her may unintentionally exclude Mark from his own encounter."
+        },
+        {
+          "text": "Acknowledge Sue, then gently address Mark directly and give him time to respond in whatever way he can.",
+          "preferred": true,
+          "feedback": "This keeps the patient central while remaining respectful to his wife. If appropriate, either person may also value some private time to talk."
+        },
+        {
+          "text": "Ask Sue to leave immediately so that you can speak to Mark alone.",
+          "preferred": false,
+          "feedback": "Private conversation may sometimes help, but it should be offered sensitively rather than imposed."
+        }
+      ],
+      "debrief": "Families are part of the situation, but the patient should not disappear from view simply because another person is more vocal."
+    }
+  ]
+}

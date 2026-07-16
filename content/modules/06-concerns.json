@@ -1,0 +1,99 @@
+{
+  "id": "concerns",
+  "summary": "Know what to do when a conversation raises worries about safety, safeguarding or needs outside your role.",
+  "objectives": [
+    "Recognise language that requires prompt escalation.",
+    "Respond calmly without promising secrecy or taking sole responsibility.",
+    "Know which matters should be passed to clinical staff or chaplaincy."
+  ],
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "safety",
+      "label": "The central rule",
+      "title": "Do not hold serious concern alone",
+      "body": [
+        "If you are worried that somebody may be at risk, stay calm, listen and involve an appropriate chaplain or member of clinical staff promptly. You are not expected to investigate, assess risk by yourself or decide whether the concern is serious enough without support."
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Situations to pass on",
+      "body": "This is not an exhaustive list. If you are uncertain, ask.",
+      "items": [
+        {
+          "title": "Risk or hopelessness",
+          "body": "The patient talks about wanting to die, giving up, self-harm, being unable to carry on or feeling unsafe."
+        },
+        {
+          "title": "Safeguarding",
+          "body": "The patient describes abuse, neglect, exploitation, coercion or fear for themselves or somebody else."
+        },
+        {
+          "title": "Clinical need",
+          "body": "The patient reports new or worsening symptoms, asks for medical advice or appears acutely unwell. Alert ward staff rather than interpreting the problem."
+        },
+        {
+          "title": "Complaint or practical problem",
+          "body": "Listen without taking sides or making promises. Help the patient reach the appropriate staff member, chaplain or formal support route."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "When a concern arises",
+      "items": [
+        {
+          "title": "Listen and clarify",
+          "body": "Do not panic or shut the conversation down. If necessary, ask a simple clarifying question using the patient’s own words."
+        },
+        {
+          "title": "Be honest about your role",
+          "body": "Do not promise secrecy. Explain that you need to involve somebody who can help keep them safe or respond appropriately."
+        },
+        {
+          "title": "Tell the right person promptly",
+          "body": "Speak directly to an appropriate member of clinical staff and inform chaplaincy according to local arrangements. Do not rely on a casual message being noticed later."
+        },
+        {
+          "title": "Record and debrief as instructed",
+          "body": "Follow local policy for recording or reporting. Speak with your mentor about the encounter and its effect on you."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "concerns-mary",
+      "label": "Patient story",
+      "title": "Mary feels ready to give up",
+      "prompt": "Mary has been admitted several times and lives alone. She says, “I don’t know what’s going to become of me. I’m not getting any better. I feel ready to give up.” What should you do?",
+      "options": [
+        {
+          "text": "Tell her to stay positive because people often say things they do not mean.",
+          "preferred": false,
+          "feedback": "Quick reassurance may close the conversation and does not address the possible risk contained in her words."
+        },
+        {
+          "text": "Listen calmly, clarify what “ready to give up” means, and promptly alert the appropriate nurse or chaplain without holding the concern alone.",
+          "preferred": true,
+          "feedback": "This takes Mary seriously while keeping you within the volunteer role and connecting her with people able to assess and respond."
+        },
+        {
+          "text": "Promise not to tell anyone so that she feels safe enough to confide in you.",
+          "preferred": false,
+          "feedback": "You should never promise secrecy when somebody may be at risk. Be honest that you need to involve appropriate support."
+        }
+      ],
+      "debrief": "You do not have to determine Mary’s level of risk. You do have to hear the warning, stay with the human reality of it and ensure that appropriate staff know."
+    },
+    {
+      "type": "callout",
+      "tone": "warm",
+      "label": "Afterwards",
+      "title": "Difficult conversations can stay with us",
+      "body": [
+        "Use your mentor and the chaplaincy team. Debriefing is not gossip: it is a purposeful conversation with an appropriate person to support safe practice and your own wellbeing."
+      ]
+    }
+  ]
+}

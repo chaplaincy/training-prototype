@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "courseVersion": "Prototype 0.1",
+  "reviewed": "July 2026",
+  "status": "Draft for chaplaincy review",
+  "title": "Chaplaincy Volunteer Preparation",
+  "description": "A practical introduction to patient-led chaplaincy: how to offer a respectful presence, listen well, maintain boundaries and respond safely when something concerns you.",
+  "duration": "35–40 minutes",
+  "passMark": 6,
+  "organisations": [
+    "University Hospitals of Leicester NHS Trust",
+    "Leicestershire Partnership NHS Trust"
+  ],
+  "certificate": {
+    "title": "Chaplaincy Volunteer Preparation",
+    "namedIntro": "This confirms that",
+    "genericIntro": "This confirms completion by",
+    "genericName": "A chaplaincy volunteer",
+    "copy": "has completed the chaplaincy-specific preparation course."
+  },
+  "modules": [
+    {
+      "id": "welcome",
+      "number": 1,
+      "shortTitle": "Welcome",
+      "title": "Welcome to chaplaincy",
+      "duration": "3 minutes",
+      "file": "content/modules/01-welcome.json"
+    },
+    {
+      "id": "role",
+      "number": 2,
+      "shortTitle": "The chaplaincy role",
+      "title": "What chaplaincy offers",
+      "duration": "5 minutes",
+      "file": "content/modules/02-role.json"
+    },
+    {
+      "id": "visiting",
+      "number": 3,
+      "shortTitle": "A good visit",
+      "title": "Making a good visit",
+      "duration": "5 minutes",
+      "file": "content/modules/03-visiting.json"
+    },
+    {
+      "id": "listening",
+      "number": 4,
+      "shortTitle": "Listening well",
+      "title": "Listening well",
+      "duration": "6 minutes",
+      "file": "content/modules/04-listening.json"
+    },
+    {
+      "id": "boundaries",
+      "number": 5,
+      "shortTitle": "Boundaries",
+      "title": "Boundaries and confidentiality",
+      "duration": "6 minutes",
+      "file": "content/modules/05-boundaries.json"
+    },
+    {
+      "id": "concerns",
+      "number": 6,
+      "shortTitle": "Concerns and risk",
+      "title": "When something concerns you",
+      "duration": "6 minutes",
+      "file": "content/modules/06-concerns.json"
+    },
+    {
+      "id": "safety",
+      "number": 7,
+      "shortTitle": "Safe volunteering",
+      "title": "Safe and practical volunteering",
+      "duration": "4 minutes",
+      "file": "content/modules/07-safety.json"
+    },
+    {
+      "id": "assessment",
+      "number": 8,
+      "shortTitle": "Knowledge check",
+      "title": "Putting it into practice",
+      "duration": "8–10 minutes",
+      "file": "content/modules/08-assessment.json"
+    }
+  ]
+}

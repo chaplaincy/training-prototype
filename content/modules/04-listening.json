@@ -1,0 +1,91 @@
+{
+  "id": "listening",
+  "summary": "Practise attentive listening without rushing to advise, reassure or fill every silence.",
+  "objectives": [
+    "Use open questions, reflection and summarising.",
+    "Notice spoken words, emotion, body language and silence.",
+    "Keep your own experiences in the background."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "lead": true,
+      "eyebrow": "The central skill",
+      "title": "Attention is an action",
+      "body": [
+        "Listening is more than waiting for your turn to speak. It means giving enough attention to understand what this person is trying to communicate and checking that you have understood.",
+        "A patient may need time to find words. Silence does not automatically mean that the conversation has failed."
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "Active listening",
+      "title": "Active Listening with Louie Savva",
+      "youtubeId": "M6Pob4qpMpw",
+      "body": "This existing video is included in the prototype for review. The written alternative below contains the key learning points.",
+      "alternativeTitle": "Written alternative and key points",
+      "alternative": [
+        "Relax and stay attentive. Notice your own thoughts and feelings without allowing them to take over the conversation.",
+        "Avoid speaking too soon, too often or for too long. Listen to the words and to what may be communicated through mood, pace, body language or silence.",
+        "Reflect or summarise what you have heard: “It sounds as though the uncertainty has been particularly difficult.” Check rather than assume: “Have I understood that correctly?”",
+        "Avoid loaded remarks, judgement and quick reassurance. The purpose is to understand the patient’s experience, not to replace it with your own."
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Small responses that help",
+      "items": [
+        {
+          "title": "Open the space",
+          "body": "“How have things been for you?” or “What has been on your mind today?”"
+        },
+        {
+          "title": "Reflect emotion",
+          "body": "“You sound disappointed,” offered tentatively rather than as a diagnosis."
+        },
+        {
+          "title": "Clarify",
+          "body": "“When you say you have had enough, can you tell me a little more about what you mean?”"
+        },
+        {
+          "title": "Summarise",
+          "body": "“You have had several pieces of difficult news and it feels as though nobody has had time to explain what happens next.”"
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "listening-jennifer",
+      "label": "Patient story",
+      "title": "Jennifer asks about you",
+      "prompt": "Jennifer is pleased to see you again. She asks about your family and weekend, and you discover several interests in common. How should you respond?",
+      "options": [
+        {
+          "text": "Share your full family history so that the relationship feels equal.",
+          "preferred": false,
+          "feedback": "Some ordinary warmth is fine, but extensive self-disclosure can shift the focus and create a relationship that feels more like friendship."
+        },
+        {
+          "text": "Answer briefly and naturally, then bring the attention back to Jennifer and what she wants to talk about.",
+          "preferred": true,
+          "feedback": "This avoids being cold or evasive while keeping the patient’s experience at the centre."
+        },
+        {
+          "text": "Refuse to answer any question about yourself because volunteers must never reveal anything personal.",
+          "preferred": false,
+          "feedback": "Rigid refusal may feel unnatural. The skill is proportionate self-disclosure: brief, safe and in service of the patient rather than your own needs."
+        }
+      ],
+      "debrief": "Before sharing something personal, ask yourself: who is this for, and will it help the patient or divert the conversation?"
+    },
+    {
+      "type": "callout",
+      "tone": "warm",
+      "label": "Be human",
+      "title": "You may be affected too",
+      "body": [
+        "Patients may remind you of your own illness, loss or relationships. Being moved does not make you a poor volunteer. Notice the reaction, keep the patient’s experience in the foreground and speak to your mentor afterwards if you need support."
+      ]
+    }
+  ]
+}

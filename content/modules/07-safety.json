@@ -1,0 +1,77 @@
+{
+  "id": "safety",
+  "summary": "Apply simple practical rules while following current Trust training, signage and local instructions.",
+  "objectives": [
+    "Know the practical limits of the volunteer role.",
+    "Follow current infection-prevention instructions and ward signage.",
+    "Know when not to attend or enter a patient area."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "lead": true,
+      "eyebrow": "Safe presence",
+      "title": "Good intentions still need safe practice",
+      "body": [
+        "Your Trust training and local induction provide the current detailed rules. Chaplaincy volunteers must follow ward signage and staff instructions, even when this means postponing a visit.",
+        "If guidance in this course ever appears to conflict with current Trust policy or a direct instruction from clinical staff, pause and check with chaplaincy."
+      ]
+    },
+    {
+      "type": "doDont",
+      "title": "Practical essentials",
+      "do": {
+        "title": "Always",
+        "items": [
+          "Wear your volunteer identification and follow local sign-in and sign-out arrangements.",
+          "Follow current hand-hygiene guidance on entering and leaving clinical areas and between contacts where instructed.",
+          "Follow the approved dress code, including bare-below-the-elbows requirements where applicable.",
+          "Ask staff when you are uncertain about access, precautions or a patient’s availability."
+        ]
+      },
+      "dont": {
+        "title": "Never",
+        "items": [
+          "Enter an isolation area or pass a warning sign unless an appropriate member of staff has explicitly confirmed that you may do so and explained the precautions.",
+          "Move, lift, feed or give drinks to patients as part of the volunteer role.",
+          "Go behind closed bedside curtains or interrupt care, treatment or protected activity.",
+          "Attend while unwell or before the required symptom-free period in current Trust guidance has passed."
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "tone": "warm",
+      "label": "Keep it current",
+      "title": "Signs and policies can change",
+      "body": [
+        "This course deliberately avoids reproducing every infection-control sign or fixed return-to-volunteering interval. Follow your current mandatory training, local signage and advice from staff. Tell chaplaincy if any practical information in this course needs updating."
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "safety-isolation",
+      "label": "On the ward",
+      "title": "A patient waves from an isolation room",
+      "prompt": "A patient you know waves and beckons you into a room displaying an infection-control warning. What should you do?",
+      "options": [
+        {
+          "text": "Enter briefly because the patient has invited you and looks lonely.",
+          "preferred": false,
+          "feedback": "A patient’s invitation does not override infection-control precautions. Entering could place the patient, you and others at risk."
+        },
+        {
+          "text": "Do not enter. Check the current position with an appropriate member of staff and follow their instruction.",
+          "preferred": true,
+          "feedback": "This protects everyone while allowing staff to explain whether and how contact might safely take place."
+        },
+        {
+          "text": "Ignore the patient and leave the ward without telling anyone.",
+          "preferred": false,
+          "feedback": "You should not enter, but you can acknowledge the patient from outside if appropriate and ask staff or chaplaincy about safe alternatives."
+        }
+      ],
+      "debrief": "Compassion includes respecting precautions. A postponed or adapted visit is better than an unsafe one."
+    }
+  ]
+}
