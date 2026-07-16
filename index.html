@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Chaplaincy volunteer preparation for University Hospitals of Leicester and Leicestershire Partnership NHS Trust."
+    >
+    <meta name="theme-color" content="#17324d">
+    <title>Chaplaincy Volunteer Preparation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <button class="brand" type="button" data-route="home" aria-label="Course home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false">
+              <circle cx="18" cy="24" r="11"></circle>
+              <circle cx="30" cy="24" r="11"></circle>
+              <circle cx="24" cy="15" r="9"></circle>
+            </svg>
+          </span>
+          <span>
+            <span class="brand-kicker">UHL &amp; LPT</span>
+            <span class="brand-title">Chaplaincy Volunteer Preparation</span>
+          </span>
+        </button>
+
+        <div class="header-actions">
+          <span class="prototype-badge">Prototype</span>
+          <button class="text-button" id="progress-button" type="button" data-route="home">
+            <span id="header-progress">0% complete</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div id="app-shell">
+      <aside class="course-rail" id="course-rail" aria-label="Course modules" hidden>
+        <div class="rail-inner">
+          <button class="rail-home" type="button" data-route="home">
+            <span aria-hidden="true">←</span> Course overview
+          </button>
+          <nav id="module-navigation" aria-label="Course progress"></nav>
+        </div>
+      </aside>
+
+      <main id="main-content" tabindex="-1">
+        <div class="loading-state" id="loading-state" role="status">
+          <span class="loading-mark" aria-hidden="true"></span>
+          <p>Preparing the course…</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <section class="certificate-sheet" id="certificate-sheet" aria-hidden="true">
+      <div class="certificate-frame">
+        <div class="certificate-emblem" aria-hidden="true">
+          <svg viewBox="0 0 80 80" focusable="false">
+            <circle cx="40" cy="40" r="35"></circle>
+            <circle cx="31" cy="41" r="17"></circle>
+            <circle cx="49" cy="41" r="17"></circle>
+            <circle cx="40" cy="28" r="14"></circle>
+          </svg>
+        </div>
+        <p class="certificate-kicker">Certificate of completion</p>
+        <h1 id="certificate-title">Chaplaincy Volunteer Preparation</h1>
+        <p class="certificate-intro" id="certificate-intro">This confirms that</p>
+        <p class="certificate-name" id="certificate-name">Chaplaincy volunteer</p>
+        <p class="certificate-copy" id="certificate-copy">
+          has completed the chaplaincy-specific preparation course.
+        </p>
+        <div class="certificate-meta">
+          <div>
+            <span>Date completed</span>
+            <strong id="certificate-date"></strong>
+          </div>
+          <div>
+            <span>Course version</span>
+            <strong id="certificate-version"></strong>
+          </div>
+        </div>
+        <p class="certificate-organisations" id="certificate-organisations">
+          University Hospitals of Leicester NHS Trust<br>
+          Leicestershire Partnership NHS Trust
+        </p>
+        <p class="certificate-note">Chaplaincy-specific preparation training</p>
+      </div>
+    </section>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
